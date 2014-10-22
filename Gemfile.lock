@@ -188,6 +188,7 @@ DEPENDENCIES
   rack-flash3
   rails
   rails_12factor
+  resque
   resque-scheduler
   sass-rails
   spring

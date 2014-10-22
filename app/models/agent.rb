@@ -1,4 +1,4 @@
-class TravelAgent
+class Agent
   def self.checkin(record)
     new(record).checkin
   end

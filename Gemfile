@@ -16,6 +16,7 @@ gem 'decent_exposure'
 gem 'jbuilder'
 gem 'mechanize'
 gem 'rack-flash3', require: 'rack-flash'
+gem 'resque'
 gem 'resque-scheduler'
 
 gem 'rails_12factor', group: :production
