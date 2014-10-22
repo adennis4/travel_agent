@@ -3,7 +3,6 @@ class FlightRecordsController < ApplicationController
     user == 'andrew' and pass == 'rulez'
   end
 
-  expose(:flight_record) { |record| RecordDecorator.new(record) }
   expose :flight_record_form, attributes: :flight_record_params, model: FlightRecordForm
   expose(:incomplete_flights) { FlightRecord.incomplete_flights(5) }
   expose(:complete_flights) { FlightRecord.complete_flights(5) }
